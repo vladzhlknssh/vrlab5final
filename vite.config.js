@@ -4,6 +4,7 @@ import basicSsl from '@vitejs/plugin-basic-ssl'
 export default {
   plugins: [
     basicSsl({
+      base: '/vrlab5final/',
       /** name of certification */
       name: 'test',
       /** custom trust domains */
